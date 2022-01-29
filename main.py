@@ -6,4 +6,4 @@ while infn == False:
     if ecode == 'infn.':
         infn = True
     else:
-        os.system('echo ' + ecode + ' >> ' + ccmd)
+        os.system('echo ' + ecode + ' >> modules\\' + ccmd)

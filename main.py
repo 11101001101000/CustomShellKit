@@ -12,4 +12,4 @@ while end == False:
         if ecode == 'infn.':
             infn = True
         else:
-            os.system('echo ' + ecode + ' >> modules\\' + ccmd + '.' + pt)
+            os.system('echo ' + ecode + ' >> modules/' + ccmd + '.' + pt)

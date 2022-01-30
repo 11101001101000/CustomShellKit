@@ -6,13 +6,13 @@ while end == False:
     ccmd = input ('custom command: ')
     while infn == False:
         ecode = input('python code to run(use os.system() to run system commands): ')
-        if ecode == 'exitc':
+        if ecode == 'exitc.':
             exit()
         if ecode == 'mlc.':
             fline = 1
             while infn == False:
                 ecode = input ('code: ')
-                if ecode == 'exitc':
+                if ecode == 'exitc.':
                     exit()
                 if ecode == 'infn.':
                     fline = 2

@@ -1,6 +1,10 @@
 import os 
-cmd = input ('command: ') 
-if cmd == 'notew': 
-    os.system ('notepad') 
-if cmd == 'calcw': 
-    os.system ('calc') 
+end = 0 
+while end == 0: 
+    cmd = input ('command: ') 
+    if cmd == 'vi': 
+        a = input ('options: ') 
+    if cmd == 'vi': 
+        if a == 'c': 
+    if cmd == 'vi': 
+                os.system ('vim') 

@@ -12,7 +12,6 @@ while end == False:
             fline = 1
             while infn == False:
                 ecode = input ('code: ')
-                indt = input ('Does the code need indentation?(y/n): ')
                 if ecode == 'exitc':
                     exit()
                 if ecode == 'infn.':
@@ -23,9 +22,6 @@ while end == False:
                     os.system ('echo         ' + ecode + ' >> command.py')
                     fline = 3
                 if fline == 0:
-                    if indt == 'y':
-                        os.system ('echo             ' + ecode + ' >> command.py')
-                    else:
-                        os.system ('echo         ' + ecode + ' >> command.py')
+                    os.system ('echo         ' + ecode + ' >> command.py')
                 if fline == 3:
                     fline = 0

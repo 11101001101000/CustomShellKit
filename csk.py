@@ -25,3 +25,6 @@ while end == False:
                     os.system ('echo         ' + ecode + ' >> command.py')
                 if fline == 3:
                     fline = 0
+        else:
+            os.system ('echo     if cmd == \'' + ccmd + '\': >> command.py')
+            os.system ('echo         ' + ecode + ' >> command.py')

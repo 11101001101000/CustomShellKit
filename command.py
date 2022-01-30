@@ -1,8 +1,10 @@
+import os
+end = 0
+while end == 0:
+cmd = input (command: )
 if cmd == a:
-if cmd == vi:
-if cmd == vi:
-test
-if cmd == vi:
-infn.
-if cmd == vi:
-infn.
+a = input ()
+if cmd == a:
+a = input()
+if a == 'a':
+    print ('a')

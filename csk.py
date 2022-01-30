@@ -14,5 +14,5 @@ while end == False:
             if ecode == '':
                 os.system ('echo \'\' >> command.py')
             else:
-                os.system ('echo if cmd == \'' + ccmd + '\': >> command.py')
-                os.system ('echo     ' + ecode + ' >> command.py')
+                os.system ('echo     if cmd == \'' + ccmd + '\': >> command.py')
+                os.system ('echo         ' + ecode + ' >> command.py')

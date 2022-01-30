@@ -4,7 +4,9 @@ print ('CustomShellKit default shell 0.1')
 print ('This shell runs executable files in modules folder')
 while end == False:
     cmd = input ('command: ')
-    pt = input ('executable type: ')
+    if cmd == exit:
+        exit()
+    pt = input ('options: ')
     if pt == 'py':
         os.system ('python modules\\' + cmd + '.py')
     if pt == 'bat':

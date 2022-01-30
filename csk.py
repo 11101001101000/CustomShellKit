@@ -28,3 +28,4 @@ while end == False:
         else:
             os.system ('echo     if cmd == \'' + ccmd + '\': >> command.py')
             os.system ('echo         ' + ecode + ' >> command.py')
+            infn = True

@@ -8,4 +8,7 @@ while infn == 0:
     if ecode == 'infn.':
         infn = 1
     else:
-        os.system ('echo ' + ecode + ' >> ' + mn + '.' + ext)
+        if sys == 'w':
+            os.system ('echo ' + ecode + ' >> modules\\' + mn + '.' + ext)
+        if sys == 'u':
+            os.system ('echo ' + ecode + ' >> modules/' + mn + '.' + ext)
